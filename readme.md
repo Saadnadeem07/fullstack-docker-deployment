@@ -1,0 +1,1 @@
+# A complete Full Stack project from development to VPS deployment using Docker, Docker Compose, Express, and Vite — covering API integration, containerization, and production hosting.
