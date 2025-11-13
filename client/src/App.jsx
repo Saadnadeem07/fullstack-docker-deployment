@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 function App() {
   const [message, setMessage] = useState("");
   useEffect(() => {
-    fetch(" http://localhost:3000/api/message")
+    fetch("/api/message")
       .then((res) => res.json())
       .then((data) => {
         setMessage(data.message);
